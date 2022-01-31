@@ -3,11 +3,15 @@
 <script>
     function clicado() {
         alert ("Você pra min é como o brilho da lua, que veio até min, e iluminou meu eterno vazio, seu carinho me traz paz, com vc meus pensamentos se anulão, quero viver com vc até a eternidade, mesmo no fundo do poço, ou em cima de uma montanha, eu sou seu sol vc é minha lua, que ilumina a rua em uma noite escura, me guiando para o bem, que eu digo, quero viver com vc, como o amor da sua vida... Te amo S2.");
-        var resposta = prompt ("DEJESA ESCREVER UMA MENSAGEM ? ESCREVA ELA A BAIXO");
+        var resposta = prompt ("DEJESA ESCREVER UMA MENSAGEM ? ESCREVA ELA A BAIXO, CASO NÃO APENAS CANCELE.");
 
-        alert ("Caso queira salvar essa mensagem tire print após apertarem ok");
-        alert (resposta);
-        alert ("SIte desenvolvido por alisson_brn@.");
+        if (resposta == null) {
+            alert ("SIte desenvolvido por alisson_brn@.");
+        } else {
+            alert ("Caso queira salvar essa mensagem tire print após apertarem ok");
+            alert (resposta);
+            alert ("SIte desenvolvido por alisson_brn@.");
+        }
     }
 </script>
 <head>
